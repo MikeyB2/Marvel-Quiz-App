@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Marvel vs. DC Quiz App</title>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
+</head>
+
+<body>
+  <header role="banner">
+    <!-- logo -->
+    <div class="questionForm">
+      <a href="index.html">
+        <img class="logo" src="https://i.amz.mshcdn.com/igC1Nex8yY-WDe3hgtlTradDmR8=/950x534/filters:quality(90)/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F643664%2F9c70bac7-ef68-4fd9-99ee-c237371eb637.jpg"
+          alt="marvel vs. dc" />
+      </a>
+    </div>
+  </header>
+  <main role="main">
+    <!--- Quiz start -->
+    <div class="startOfQuiz">
+      <h1>Think you know your comics? Try and test your knowledge with this quiz!</h1>
+      <button type="button" class="quizStartButton">Start Quiz!</button>
+    </div>
+    <!-- Question area -->
+    <div class="questionsForm"></div>
+    <!-- Question Count -->
+    <div class="col-8 row">
+      <ul class="questions">
+        <li class="questionNumber">Question:
+          <span class="currentQuestion">0</span>/10</li>
+        <li class="score">Score:
+          <span class="yourScore">0</span>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="answerBank.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

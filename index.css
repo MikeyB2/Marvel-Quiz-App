@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Wendy One', sans-serif;
+}
+
+body {
+  background: url(https://image.freepik.com/free-vector/abstract-bright-comic-book-background_1055-2399.jpg) no-repeat center fixed;
+  background-color: #ffffff;
+  background-size: cover;
+}
+
+header {
+  margin-top: 0;
+}
+
+.logo {
+  height: 33%;
+  width: 50%;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+.col-4 {
+  width: 33.33;
+}
+
+.col-8 {
+  width: 66.67;
+}
+
+h1 {
+  text-align: center;
+}
+
+header ul li {
+  text-align: center;
+}
+
+.startOfQuiz {
+  text-align: center;
+  margin-top: 25px;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #0670fa;
+  color: #ffffff;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover,
+button:focus {
+  background-color: #647285;
+  color: #ffffff;
+}
+
+.score,
+.questionNumber {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.questionNumber {
+  margin-left: 15px;
+}
+
+.score {
+  float: right;
+  margin-right: 15px;
+}
+
+label {
+  display: flex;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+label:hover,
+label:focus {
+  border-color: #ec0e0e;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.questionForm {
+  text-align: center;
+}
+
+.questionForm p {
+  font-size: 50px;
+}
+
+.answerBackground {
+  border: 2px solid lightgray;
+  padding: 20px;
+  margin: 15px;
+  width: 500px;
+  background: #c5c3c3;
+}
+
+.questionButton {
+  width: 500px;
+  margin-top: 15px;
+}
+
+input[type=radio] {
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+input:checked {
+  border: 8px solid #ebca52;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: solid underline;
+  font-weight: initial;
+}
+
+.answerForm img {
+  width: 33%;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+  background-color: rgb(235, 26, 36);
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
