@@ -3,10 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Wendy One', sans-serif;
+  background: #f0ff07;
 }
 
 body {
-  background: url(https://image.freepik.com/free-vector/abstract-bright-comic-book-background_1055-2399.jpg) no-repeat center fixed;
+  /* url(https://image.freepik.com/free-vector/abstract-bright-comic-book-background_1055-2399.jpg) no-repeat center fixed */
   background-color: #ffffff;
   background-size: cover;
 }
@@ -20,6 +21,10 @@ header {
   width: 50%;
   border: solid 1px;
   border-radius: 5px;
+}
+
+.answers {
+  background: #c5c3c3;
 }
 
 .col-4 {
@@ -40,12 +45,13 @@ header ul li {
 
 .startOfQuiz {
   text-align: center;
-  margin-top: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 button {
   margin-top: 20px;
-  background-color: #0670fa;
+  background-color: #0000FF;
   color: #ffffff;
   padding: 20px;
   font-size: 20px;
@@ -141,4 +147,7 @@ h2 {
   padding: 10px;
   margin-bottom: 20px;
   font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center
 }
